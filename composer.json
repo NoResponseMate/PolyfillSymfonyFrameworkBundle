@@ -31,6 +31,13 @@
             "Tests\\SyliusLabs\\Polyfill\\Symfony\\FrameworkBundle\\": "tests/"
         }
     },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true,
+            "symfony/thanks": false
+        }
+    },
     "scripts": {
         "analyse": [
             "vendor/bin/psalm"
